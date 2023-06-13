@@ -1,7 +1,12 @@
+import os
+from background import keep_alive 
+import pip
+pip.main(['install', 'pytelegrambotapi'])
 import threading
 import time
 import sqlite3
 import telegram.ext
+
 
 
 token = "6209150055:AAGV4LHr-PMg-v_xabxVVSbx4LqygtaKQc0"
