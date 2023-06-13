@@ -1,7 +1,3 @@
-import os
-from background import keep_alive 
-import pip
-pip.main(['install', 'pytelegrambotapi'])
 import threading
 import time
 import sqlite3
