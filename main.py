@@ -5,7 +5,7 @@ import telegram.ext
 
 
 
-token = "6209150055:AAGV4LHr-PMg-v_xabxVVSbx4LqygtaKQc0"
+token = "############"
 
 conn = sqlite3.connect("database.db", check_same_thread=False)
 cursor = conn.cursor()
